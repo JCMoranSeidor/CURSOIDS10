@@ -1628,7 +1628,7 @@
     <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccYDA107Ee6RN8C2p7F9yw" name="DEPTNAME" nullable="false" systemName="DEPTNAME">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ccYDBF07Ee6RN8C2p7F9yw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="36" characterSet="_ccZ4Ml07Ee6RN8C2p7F9yw"/>
     </columns>
-    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccYDBV07Ee6RN8C2p7F9yw" name="MGRNO" defaultValue="SYSTEM_DEFAULT" systemName="MGRNO">
+    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccYDBV07Ee6RN8C2p7F9yw" name="ID_EMP" defaultValue="SYSTEM_DEFAULT" systemName="MGRNO">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ccYDBl07Ee6RN8C2p7F9yw" name="CHAR" length="6" characterSet="_ccZRIl07Ee6RN8C2p7F9yw"/>
     </columns>
     <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccYDB107Ee6RN8C2p7F9yw" name="ADMRDEPT" nullable="false" systemName="ADMRDEPT">
@@ -1673,7 +1673,7 @@
   <iSeries:ISeriesCharacterSet xmi:id="_ccZ4Ml07Ee6RN8C2p7F9yw" CharacterStringDataType="_ccYDBF07Ee6RN8C2p7F9yw" ccsid="284"/>
   <iSeries:ISeriesCharacterSet xmi:id="_ccZ4M107Ee6RN8C2p7F9yw" CharacterStringDataType="_ccYDCl07Ee6RN8C2p7F9yw" ccsid="284"/>
   <iSeries:ISeriesTable xmi:id="_ccafQF07Ee6RN8C2p7F9yw" name="EMPLOYEE" label="" schema="_ccXb8F07Ee6RN8C2p7F9yw" index="_ccbGUV07Ee6RN8C2p7F9yw _ccbtYF07Ee6RN8C2p7F9yw" systemName="EMPLOYEE">
-    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccafQV07Ee6RN8C2p7F9yw" name="EMPNO" nullable="false" systemName="EMPNO">
+    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccafQV07Ee6RN8C2p7F9yw" name="ID_EMP" nullable="false" systemName="EMPNO">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ccafQl07Ee6RN8C2p7F9yw" name="CHAR" length="6" characterSet="_ccbGU107Ee6RN8C2p7F9yw"/>
     </columns>
     <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccafQ107Ee6RN8C2p7F9yw" name="FIRSTNME" nullable="false" systemName="FIRSTNME">
@@ -1757,7 +1757,7 @@
     <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_cccUdl07Ee6RN8C2p7F9yw" name="DEPTNO" nullable="false" systemName="DEPTNO">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_cccUd107Ee6RN8C2p7F9yw" name="CHAR" length="3" characterSet="_ccdik107Ee6RN8C2p7F9yw"/>
     </columns>
-    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_cccUeF07Ee6RN8C2p7F9yw" name="RESPEMP" nullable="false" systemName="RESPEMP">
+    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_cccUeF07Ee6RN8C2p7F9yw" name="ID_EMP" nullable="false" systemName="RESPEMP">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_cccUeV07Ee6RN8C2p7F9yw" name="CHAR" length="6" characterSet="_ccc7gF07Ee6RN8C2p7F9yw"/>
     </columns>
     <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_cccUel07Ee6RN8C2p7F9yw" name="PRSTAFF" defaultValue="SYSTEM_DEFAULT" systemName="PRSTAFF">
@@ -1918,7 +1918,7 @@
   <iSeries:ISeriesCharacterSet xmi:id="_ccf-1F07Ee6RN8C2p7F9yw" CharacterStringDataType="_ccfXxl07Ee6RN8C2p7F9yw" ccsid="284"/>
   <iSeries:ISeriesCharacterSet xmi:id="_ccf-1V07Ee6RN8C2p7F9yw" CharacterStringDataType="_ccfXyF07Ee6RN8C2p7F9yw" ccsid="284"/>
   <iSeries:ISeriesTable xmi:id="_ccf-1l07Ee6RN8C2p7F9yw" name="EMP_PHOTO" label="" schema="_ccXb8F07Ee6RN8C2p7F9yw" index="_ccgl4V07Ee6RN8C2p7F9yw" systemName="EMP_PHOTO">
-    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccf-1107Ee6RN8C2p7F9yw" name="EMPNO" nullable="false" systemName="EMPNO">
+    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccf-1107Ee6RN8C2p7F9yw" name="ID_EMP" nullable="false" systemName="EMPNO">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ccf-2F07Ee6RN8C2p7F9yw" name="CHAR" length="6" characterSet="_ccgl4F07Ee6RN8C2p7F9yw"/>
     </columns>
     <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccf-2V07Ee6RN8C2p7F9yw" name="PHOTO_FORMAT" nullable="false" systemName="PHOTO00001">
@@ -1955,7 +1955,7 @@
   <iSeries:ISeriesCharacterSet xmi:id="_ccgl5F07Ee6RN8C2p7F9yw" CharacterStringDataType="_ccf-2l07Ee6RN8C2p7F9yw" ccsid="284"/>
   <iSeries:ISeriesCharacterSet xmi:id="_ccgl5V07Ee6RN8C2p7F9yw" CharacterStringDataType="_ccf-3l07Ee6RN8C2p7F9yw" ccsid="284"/>
   <iSeries:ISeriesTable xmi:id="_ccgl5l07Ee6RN8C2p7F9yw" name="EMP_RESUME" label="" schema="_ccXb8F07Ee6RN8C2p7F9yw" index="_cchM8V07Ee6RN8C2p7F9yw" systemName="EMP_RESUME">
-    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccgl5107Ee6RN8C2p7F9yw" name="EMPNO" nullable="false" systemName="EMPNO">
+    <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccgl5107Ee6RN8C2p7F9yw" name="ID_EMP" nullable="false" systemName="EMPNO">
       <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_ccgl6F07Ee6RN8C2p7F9yw" name="CHAR" length="6" characterSet="_cchM8F07Ee6RN8C2p7F9yw"/>
     </columns>
     <columns xsi:type="iSeries:ISeriesColumn" xmi:id="_ccgl6V07Ee6RN8C2p7F9yw" name="RESUME_FORMAT" nullable="false" systemName="RESUM00001">
